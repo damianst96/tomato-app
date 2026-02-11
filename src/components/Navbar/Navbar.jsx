@@ -2,7 +2,7 @@ import './Navbar.css';
 import { assets } from '../../assets/assets';
 import { useState } from 'react';
 
-const Navbar = () => {
+const Navbar = function() {
 
   return (
     <div className='navbar'>
