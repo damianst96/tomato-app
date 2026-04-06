@@ -10,7 +10,7 @@ const ExploreMenu = function() {
         {menu_list.map(function(item, index){
             return (
                 <div className='explore-menu-list-item'>
-                    <img src={item.menu_image} alt="" />
+                    <img src={item.image} alt="" />
                     <p>{item.name}</p>
                 </div>
             )

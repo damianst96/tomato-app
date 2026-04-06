@@ -52,11 +52,32 @@
     }
 }
 
+@media (min-width: 768px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        gap: 3%;
+    }
+
+    .navbar-menu {
+        display: flex;
+        gap: 10%;
+    }
+
+    .navbar-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10%;
+    }
+}
+
 @media (min-width: 960px) {
     .navbar {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        gap: 10%;
     }
 
     .navbar-menu {
@@ -77,5 +98,14 @@
 
     .navbar-search-icon .dot {
         left: 85%;
+    }
+}
+
+@media (min-width: 1210px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 19%;
     }
 }
