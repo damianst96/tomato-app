@@ -133,7 +133,17 @@ export const menu_list = [
         name: "Soup",
         image: menu_8
     },
+]
 
+export const food_list = [
+    {
+        id: 1,
+        name: "Greek Salad",
+        image: food_1,
+        price: 12,
+        description: "The greek salad is a great salad with perfect balance and flavors",
+        category: "Salad",
+    }
 ]
 
 export const url = 'http://localhost:4000';
