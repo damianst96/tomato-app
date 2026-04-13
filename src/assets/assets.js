@@ -47,6 +47,7 @@ import food_29 from './food_29.png';
 import food_30 from './food_30.png';
 import food_31 from './food_31.png';
 import food_32 from './food_32.png';
+import rating from './rating_starts.png';
 
 export const assets = {
     logo,
@@ -98,6 +99,7 @@ export const assets = {
     food_30,
     food_31,
     food_32,
+    rating,
 }
 
 export const menu_list = [
@@ -143,7 +145,7 @@ export const food_list = [
         price: 12,
         description: "The greek salad is a great salad with perfect balance and flavors",
         category: "Salad",
-    }
+    },
 ]
 
 export const url = 'http://localhost:4000';
